@@ -6,9 +6,8 @@ C++ and Python algorithm competition environment with devcontainer.
 
 Open in VS Code with Dev Containers extension.
 
-- `Ctrl+Shift+B` — build current C++ file
+- `Ctrl+Shift+B` — build & run
 - `F5` — build & debug
-- `Ctrl+Shift+P` → *Tasks: Run Task* → *run active file* — build & run
 
 ## Tools
 
