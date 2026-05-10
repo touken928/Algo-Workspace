@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "shell",
             "label": "g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
@@ -24,19 +24,17 @@
             },
             "problemMatcher": [
                 "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-            },
+            ]
+        },
         {
             "type": "shell",
             "label": "run active file",
-            "command": "${fileDirname}/${fileBasenameNoExtension}",
+            "command": "/usr/bin/g++ -std=c++17 -O2 ${file} -o ${fileDirname}/${fileBasenameNoExtension} && ${fileDirname}/${fileBasenameNoExtension}",
             "options": {
                 "cwd": "${fileDirname}"
             },
-            "dependsOn": [
-                "g++ build active file"
+            "problemMatcher": [
+                "$gcc"
             ],
             "group": {
                 "kind": "build",
