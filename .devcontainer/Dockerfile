@@ -18,3 +18,7 @@ RUN rm -rf /var/lib/apt/lists/*
 RUN pip install --break-system-packages ruff ty
 
 RUN ln -sf python3 /usr/bin/python
+
+RUN mkdir -p /root/.config/clangd /workspaces
+COPY config/clangd.yaml /root/.config/clangd/config.yaml
+COPY config/clang-format /workspaces/.clang-format

@@ -2,8 +2,6 @@
 !.gitignore
 !*/
 
-!.clang-format
-!.clangd
 !.devcontainer/
 !.devcontainer/*
 !.vscode/
