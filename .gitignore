@@ -9,16 +9,3 @@
 !.vscode/
 !.vscode/*
 !README.md
-
-!*.cpp
-!*.c
-!*.h
-!*.hpp
-!*.py
-!*.rs
-!*.go
-!*.java
-
-*.out
-*.exe
-*.in
