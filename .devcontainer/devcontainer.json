@@ -11,7 +11,17 @@
                 "ms-python.python",
                 "charliermarsh.ruff",
                 "astral-sh.ty"
-            ]
+            ],
+            "settings": {
+                "files.exclude": {
+                    ".gitignore": true,
+                    ".clangd": true,
+                    ".clang-format": true,
+                    ".devcontainer": true,
+                    ".vscode": true,
+                    "README.md": true
+                }
+            }
         }
     }
 }
