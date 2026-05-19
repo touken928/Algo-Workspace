@@ -1,15 +1,11 @@
 # Algo Workspace
 
-C++ and Python algorithm competition environment with devcontainer.
+C++ / Python algorithm contest environment.
 
 ## Quick Start
 
-Open in VS Code with Dev Containers extension.
+Open a `.py` or `.cpp` file, click the ▶ button (top-right) to run, or use:
+- `F5` — build + debug (C++)
+- `Ctrl+Shift+B` — build only (C++)
+- Python files can be run/debugged directly
 
-- `Ctrl+Shift+B` — build & run
-- `F5` — build & debug
-
-## Tools
-
-- **C++**: g++ (C++17), GDB, clangd, clang-format
-- **Python**: Python 3, Ruff, Ty
